@@ -1,0 +1,73 @@
+.planner {
+    
+    height: 90vh;
+    margin: 0 auto;
+    grid-template-columns: 120px;
+    grid-template-rows: 60px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.time {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.btn.btn-primary {
+    margin-bottom: 10px;
+    position: relative;
+    transition: .5s ease;
+    left: 94%;
+    background-color: black;
+    border-color: black;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(185, 1, 130);
+    border-color: rgb(167, 2, 117);
+}
+
+.btn.btn-primary:focus {
+    background-color: rgb(185, 1, 130);
+}
+
+.btn.btn-primary2 {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.btn.btn-primary2:hover {
+    background-color: rgb(185, 1, 130);
+    border-color: rgb(167, 2, 117);
+    color: white;
+}
+
+.btn.btn-primary2:focus {
+    background-color: rgb(185, 1, 130);
+    border-color: rgb(167, 2, 117)
+}
+
+th {
+    width: 10vw;
+    border: 1px solid;
+    border-color: black;
+    margin: 0;
+    background-color: rgb(185, 1, 130);
+    color: white;
+    text-align: center !important;
+}
+
+td {
+    width: 80vw;
+    border: 1px solid;
+}
