@@ -40,6 +40,15 @@ h1{
     background-color: rgb(185, 1, 130);
 }
 
+#eventName {
+    padding: 10px;
+    line-height: .5;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
 .btn.btn-primary2 {
     background-color: black;
     border-color: black;
