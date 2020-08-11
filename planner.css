@@ -7,6 +7,7 @@
     background-color: rgb(247, 247, 247);
     border: 1px solid;
     font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 10px;
 
 }
 
@@ -19,51 +20,6 @@ h1{
     text-align: center;
     padding-bottom: 15px;
     font-size: 20px;
-}
-
-
-.btn.btn-primary {
-    margin-bottom: 10px;
-    position: relative;
-    transition: .5s ease;
-    left: 94%;
-    background-color: black;
-    border-color: black;
-}
-
-.btn.btn-primary:hover {
-    background-color: rgb(185, 1, 130);
-    border-color: rgb(167, 2, 117);
-}
-
-.btn.btn-primary:focus {
-    background-color: rgb(185, 1, 130);
-}
-
-#eventName {
-    padding: 10px;
-    line-height: .5;
-    width: 30vw;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
-}
-
-.btn.btn-primary2 {
-    background-color: black;
-    border-color: black;
-    color: white;
-}
-
-.btn.btn-primary2:hover {
-    background-color: rgb(185, 1, 130);
-    border-color: rgb(167, 2, 117);
-    color: white;
-}
-
-.btn.btn-primary2:focus {
-    background-color: rgb(185, 1, 130);
-    border-color: rgb(167, 2, 117)
 }
 
 th {
@@ -80,3 +36,21 @@ td {
     width: 80vw;
     border: 1px solid;
 }
+
+textarea {
+    width: 70vw
+}
+
+.save-btn {
+    width: 8vw;
+    border: .5px solid;
+    margin: 0;
+    height: 9vh;
+    border-color: whitesmoke;
+    border-width: thin;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+}
+

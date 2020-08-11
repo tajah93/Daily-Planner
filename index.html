@@ -12,127 +12,98 @@
   <div class="container">
     <h1>My Workday Planner</h1>
     <h2 class= "time"></h2>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Schedule an event
-      </button>
-      
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Schedule an event:</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form class= "modal-container-form"></form>
-                <div class="row" id= "row1"></div>
-                  <label for= "eventName">Name of Event:</label>
-                  <textarea id= "eventName"></textarea>
-                  <div class="row"></div>
-                  <label for= "start-select">Start Time</label>
-                  <select id ="start-select">
-                      <option value="8 am">8 am</option>
-                      <option value="9 am">9 am</option>
-                      <option value="10 am">10 am</option>
-                      <option value="11 am">11 am</option>
-                      <option value="12 pm">12 pm</option>
-                      <option value="1 pm">1 pm</option>
-                      <option value="2 pm">2 pm</option>
-                      <option value="3 pm">3 pm</option>
-                      <option value="4 pm">4 pm</option>
-                  </select>
-                  <label for= "end-select">End Time</label>
-                  <select id ="end-select">
-                      <option value="9 am">9 am</option>
-                      <option value="10 am">10 am</option>
-                      <option value="11 am">11 am</option>
-                      <option value="12 pm">12 pm</option>
-                      <option value="1 pm">1 pm</option>
-                      <option value="2 pm">2 pm</option>
-                      <option value="3 pm">3 pm</option>
-                      <option value="4 pm">4 pm</option>
-                      <option value="5 pm">5 pm</option>
-                  </select>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary2">Schedule</button>
-            </div>
-          </div>
-        </div>
-      </div>
-        </div>
-
-
 
 
     <table class= "planner" class="table-responsive" class="table-hover">
         <thread>
             <tr>
-                <th scope="row" id= "8">8:00 am</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "8">8:00 am</th>
+                <td class= "eventSch0" value= "8"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "9">9:00 am</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "9">9:00 am</th>
+                <td class= "eventSch1" value= "9"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "10">10:00 am</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "10">10:00 am</th>
+                <td class= "eventSch2" value="10"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "11">11:00 am</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "11">11:00 am</th>
+                <td class= "eventSch3" value= "11"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "12">12:00 pm</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "12">12:00 pm</th>
+                <td class= "eventSch4" value= "12"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "1">1:00 pm</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "1">1:00 pm</th>
+                <td class= "eventSch5" value= "13"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "2">2:00 pm</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "2">2:00 pm</th>
+                <td class= "eventSch6" value= "14"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "3">3:00 pm</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "3">3:00 pm</th>
+                <td class= "eventSch7" value= "15"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "4">4:00 pm</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "4">4:00 pm</th>
+                <td class= "eventSch8" value="16"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
             <tr>
-                <th scope="row" id= "5">5:00 pm</th>
-                <td></td>
+                <th scope="row" class="timeH" id= "5">5:00 pm</th>
+                <td class= "eventSch9" value= "17"></td>
+                <th class= "save-btn" type= "button">Save</th>
             </tr>
         </thread>
         
         </table>
 
-        
+       
 
 
 
 
 
 
-  <script src= "planner.js"></script>
-  <script src= "lib/moment/moment.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+        <script src= "planner.js"></script>
+        <script src= "lib/moment/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      
 <script>
 
-const m = moment().format('LLLL'); 
-console.log(m.toString());
 
-$(".time").text(m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
