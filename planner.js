@@ -15,7 +15,8 @@ $(".time").text(m);
 
 $(document).ready(function() {
 var actualEvent = $("<textarea>");
-var eventBox = $(".eventSch");
+$(actualEvent).attr("id", "message");
+var eventBox = $("td");
 
 
 $(eventBox).click(function() {
@@ -41,14 +42,14 @@ $(document).ready(function (eventSch0, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch0).css('background-color', 'red');
+        $(eventSch0).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch0).css('background-color', 'blue');
+        $(eventSch0).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch0).css('background-color','green');
+        $(eventSch0).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -71,14 +72,14 @@ $(document).ready(function (eventSch1, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch1).css('background-color', 'red');
+        $(eventSch1).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch1).css('background-color', 'blue');
+        $(eventSch1).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch1).css('background-color','green');
+        $(eventSch1).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -100,14 +101,14 @@ $(document).ready(function (eventSch2, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch2).css('background-color', 'red');
+        $(eventSch2).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch2).css('background-color', 'blue');
+        $(eventSch2).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch2).css('background-color','green');
+        $(eventSch2).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -129,14 +130,14 @@ $(document).ready(function (eventSch3, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch3).css('background-color', 'red');
+        $(eventSch3).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch3).css('background-color', 'blue');
+        $(eventSch3).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch3).css('background-color','green');
+        $(eventSch3).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -158,14 +159,14 @@ $(document).ready(function (eventSch4, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch4).css('background-color', 'red');
+        $(eventSch4).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch4).css('background-color', 'blue');
+        $(eventSch4).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch4).css('background-color','green');
+        $(eventSch4).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -187,14 +188,14 @@ $(document).ready(function (eventSch5, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch5).css('background-color', 'red');
+        $(eventSch5).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch5).css('background-color', 'blue');
+        $(eventSch5).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch5).css('background-color','green');
+        $(eventSch5).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -216,14 +217,14 @@ $(document).ready(function (eventSch6, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch6).css('background-color', 'red');
+        $(eventSch6).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch6).css('background-color', 'blue');
+        $(eventSch6).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch6).css('background-color','green');
+        $(eventSch6).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -245,14 +246,14 @@ $(document).ready(function (eventSch7, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch7).css('background-color', 'red');
+        $(eventSch7).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch7).css('background-color', 'blue');
+        $(eventSch7).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch7).css('background-color','green');
+        $(eventSch7).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -274,14 +275,14 @@ $(document).ready(function (eventSch8, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch8).css('background-color', 'red');
+        $(eventSch8).css('background-color', 'gb(150, 147, 147');
     }
     else if (timeVal > currentVal) {
-        $(eventSch8).css('background-color', 'blue');
+        $(eventSch8).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch8).css('background-color','green');
+        $(eventSch8).css('background-color','rgb(32, 218, 94)');
     
     }
 
@@ -303,21 +304,30 @@ $(document).ready(function (eventSch9, timeValFinal){
     
 
     if (timeValFinal < currentVal) {
-        $(eventSch9).css('background-color', 'red');
+        $(eventSch9).css('background-color', 'gb(150, 147, 147)');
     }
     else if (timeVal > currentVal) {
-        $(eventSch9).css('background-color', 'blue');
+        $(eventSch9).css('background-color', 'rgb(26, 137, 241)');
     }
 
     else if (timeVal === currentVal) {
-        $(eventSch9).css('background-color','green');
+        $(eventSch9).css('background-color','rgb(32, 218, 94)');
     
     }
 
     
 });
+
+$(document).ready(function() {
+    $(window).unload(saveEvent);
+    loadEvent();
+});
+
 //Save button 
 var Save = $(".save-btn");
 
 
-
+$(Save).click(function(actualEvent) {
+   
+   localStorage.setItem("actualEvent", JSON.stringify(actualEvent));
+}); 
