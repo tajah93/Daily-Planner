@@ -15,6 +15,6 @@ The task was to create a workday planner using jQuery and the Moment.js API. The
 
 ## Images ##
 
-![ScreenShot](https://raw.github.com/tajah93/code-quiz/master/assets/images/WorkdayPlanner_Past.png)
+![ScreenShot](https://raw.github.com/tajah93/Daily-Planner/master/assets/images/WorkdayPlanner_Past.png)
 
-![ScreenShot](https://raw.github.com/tajah93/code-quiz/master/assets/images/WorkdayPlanner_MobilePast.png)
+![ScreenShot](https://raw.github.com/tajah93/Daily-Planner/master/assets/images/WorkdayPlanner_MobilePast.png)
